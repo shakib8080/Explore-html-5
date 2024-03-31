@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css" />
+    <style>
+      .button1 {
+        background-color: chocolate;
+        background-image: linear-gradient(red, green);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">home</a></li>
+          <li><a href="form2.html">form</a></li>
+          <li><a href="semantic.html">semantic</a></li>
+          <li><a href="table2.html">table2</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form action="">
+      <p>
+        Name:<input
+          type="text"
+          name="name"
+          placeholder="enter your name"
+          id=""
+        />
+      </p>
+      <p>
+        Email:<input
+          type="text"
+          name="email"
+          placeholder="enter your email"
+          id=""
+        />
+      </p>
+
+      <fieldset>
+        <legend>choise your item</legend>
+        <label for="pencile">
+          <p><input type="radio" name="pencile" id="pencile" />pencile</p>
+        </label>
+        <label for="book">
+          <p><input type="radio" name="pencile" id="book" />book</p>
+        </label>
+        <label for="diary">
+          <p><input type="radio" name="pencile" id="diary" />diary</p>
+        </label>
+        <label for="chire">
+          <p><input type="radio" name="pencile" id="chire" />chire</p>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>select color</legend>
+        <label for="color">
+          <p><input type="checkbox" name="red" id="color" />red</p>
+        </label>
+        <label for="color">
+          <p><input type="checkbox" name="green" id="color" />green</p>
+        </label>
+        <label for="color">
+          <p><input type="checkbox" name="black" id="color" />black</p>
+        </label>
+        <label for="color">
+          <p><input type="checkbox" name="yellow" id="color" />yellow</p>
+        </label>
+        <label for="color">
+          <p><input type="checkbox" name="gray" id="color" />gray</p>
+        </label>
+      </fieldset>
+
+      <p>special subject</p>
+      <br />
+
+      <textarea name="" id="" cols="30" rows="10"></textarea><br />
+      <button class="button1" type="submit">submit</button>
+      <button class="button1" type="reset">reset</button>
+    </form>
+  </body>
+</html>

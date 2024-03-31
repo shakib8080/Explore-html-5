@@ -1,0 +1,25 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin:10px;
+    padding: 0px 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    background-color: gray;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
+.semantic{
+    display: none;
+    position: absolute;
+    background-color: lightyellow ; 
+}
+
